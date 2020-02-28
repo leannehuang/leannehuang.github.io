@@ -1,0 +1,108 @@
+*{
+  line-height: 60px
+}
+body{
+  font-family: "Helvetica Neue", 
+  Helvetica, Arial, sans-serif;
+}
+.bigcontain{
+  text-align: center;
+  position: relative;
+  border: 10px solid #cccccc;
+  border-top: 15px solid #cccccc;
+}
+.greydog{
+  top: 10px;
+  height: 60px;
+  position: relative;
+}
+.header p{
+  top: 15px;
+  position: relative;
+  font-size: 14px;
+}
+.header:before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: -10px;
+  width: 100%;
+  height: 10px;
+  background:
+    linear-gradient(
+      45deg, transparent 33.333%,
+      #fff 33.333%, #fff 66.667%,
+      transparent 66.667%
+    ),
+    linear-gradient(
+      -45deg, transparent 33.333%,
+      #fff 33.333%, #fff 66.667%,
+      transparent 66.667%
+    );
+  background-size: 10px 30px
+}
+.visit{
+  text-align: center;
+  position: relative;
+  background-color: #3da6b4;
+}
+.visit p{
+  top: 20px;
+  color: #fff;
+  position:relative;
+  font-size: 18px;
+}
+.left{
+  text-align: left;
+  margin-left: 20px;
+}
+.right{
+  text-align: right;
+  float: right;
+  display: inline-block;
+  margin-right: 20px;
+}
+.circle{
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
+  background-color: #2e7c87;
+  display: inline-block;
+  position: relative;
+  margin: 20px;
+}
+.thumb{
+  position: relative;
+  top: 10px;
+}
+.content{
+  font-size: 14px;
+}
+.footer{
+  position: relative;
+}
+.footer:before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: -10px;
+  width: 100%;
+  height: 10px;
+  background:
+    linear-gradient(
+      45deg, transparent 33.333%,
+      #cccccc 33.333%, #cccccc 66.667%,
+      transparent 66.667%
+    ),
+    linear-gradient(
+      -45deg, transparent 33.333%,
+      #cccccc 33.333%, #cccccc 66.667%,
+      transparent 66.667%
+    );
+  background-size: 10px 30px
+}
+.wrapper{
+  column-count: 3;
+  column-gap: 250px;
+  overflow: scroll;
+}

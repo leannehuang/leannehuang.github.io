@@ -1,0 +1,29 @@
+body{
+    font-family: sans-serif;
+  }
+  .header{
+    text-align: center;
+    line-height: 1em
+  }
+  .center{
+    text-align: center;
+  }
+  span{
+    text-align: right;
+    float: right;
+    display: inline-block;
+    position: relative;
+  }
+  .content{
+    line-height: 2em;
+  }
+  .approved{
+    line-height: 2em;
+  }
+  .bottom{
+    height: 170px;
+    overflow: scroll;
+    top: 550px;
+    font-size: 3em;
+    position: relative;
+  }
