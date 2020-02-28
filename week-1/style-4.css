@@ -1,0 +1,23 @@
+body{
+  font-family: sans-serif;
+  margin-right: 40vw;
+  margin-left: 40vw;
+  width: 20vw;
+}
+.header{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+.right{
+  text-align: right;
+  float: right;
+}
+.bottom{
+  text-align: center;
+}
+.footer{
+  font-size: 14px;
+  line-height: 10px;
+}

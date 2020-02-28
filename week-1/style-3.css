@@ -1,0 +1,32 @@
+body{
+  font-family: sans-serif;
+  margin-right: 40vw;
+  width: 28vw;
+  margin:auto;
+}
+.header{
+  text-align: center;
+  line-height: 10px
+}
+span.right{
+  text-align: right;
+  float: right;
+  display: inline-block;
+  position: relative;
+}
+.content{
+  line-height: 16px;
+}
+.approved{
+  line-height: 16px;
+}
+.dash{
+  margin-left:299px;
+  line-height: 10px;
+}
+.totaltax{
+  margin-left: 200px;
+}
+.emv{
+  text-align: center;
+}

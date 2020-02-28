@@ -1,0 +1,22 @@
+body{
+  font-family: sans-serif;
+  width: 350px;
+  margin: auto;
+  line-height: 10px
+}
+.header{
+  text-align: center;
+}
+.order{
+  text-align: right;
+}
+.left{
+  text-align: left;
+}
+.right{
+  text-align: right;
+  float: right;
+}
+.centered{
+  text-align: center;
+}
