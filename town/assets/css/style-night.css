@@ -1,0 +1,300 @@
+body{
+  cursor: url(../images/you1.png), auto;
+  font-family: 'Press Start 2P', sans-serif;
+}
+.open{
+  cursor: url(../images/dooropen1.png), auto;
+}
+.day{
+  cursor: url(../images/question.png), auto;
+}
+.night{
+  cursor: url(../images/question.png), auto;
+}
+.text{
+  cursor: url(../images/speech.png), auto;
+}
+#bigmap{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#yourhouse{
+  margin: auto;
+  top: 1000px;
+  left: 1110px;
+  position: absolute;
+}
+#rina{
+  top: 1044px;
+  left: 184px;
+  position: absolute;
+}
+#park{
+  top: 998px;
+  left: 1926px;
+  position: absolute;
+}
+#apothecary{
+  top: 1777px;
+  left: 1896px;
+  position: absolute;
+}
+#market{
+  top: 1762px;
+  left: 114px;
+  position: absolute;
+}
+#farmershouse{
+  top: 2461px;
+  left: 309px;
+  position: absolute;
+}
+#switch{
+  top: 190px;
+  left: 214px;
+  position: absolute;
+}
+#forest{
+  top: 88px;
+  left: 1946px;
+  position: absolute;
+}
+#farm{
+  top: 2536px;
+  left: 1445px;
+  position: absolute;
+}
+#overlay{
+  position: absolute;
+  width: 2880px;
+  height: 3240px;
+  top: 0;
+  left: 0;
+  background-color: navy;
+  opacity: 50%;
+  z-index: 1;
+  pointer-events: none;
+}
+.door{
+  width: 400px;
+  height: 500px;
+  top: 300px;
+  position: absolute;
+  display: inline-block;
+}
+/*farm*/
+#friendmushroom1{
+  position: absolute;
+  top: 500px;
+  left: 300px;
+}
+#friendmushroom2{
+  position: absolute;
+  top: 600px;
+  left: 500px;
+}
+#friendmushroom3{
+  position: absolute;
+  top: 500px;
+  left: 700px;
+}
+#friendmushroom4{
+  position: absolute;
+  top: 600px;
+  left: 1000px;
+}
+#farmerhousebutton{
+  position: absolute;
+  top: 8px;
+  left: 1200px;
+}
+#mushroomdialouge{
+  background-color: bisque;
+  position: absolute;
+  top: 685px;
+  left: 350px;
+  font-size: 15px;
+  display: none;
+  padding: 10px;
+  border: solid 3px GoldenRod;
+}
+/*farmer house*/
+#farmer{
+  position: absolute;
+  top: 500px;
+  left: 100px;
+}
+#farmerdialouge{
+  background-color: bisque;
+  position: absolute;
+  top: 600px;
+  left: 350px;
+  font-size: 15px;
+  display: none;
+  padding: 10px;
+  border: solid 3px GoldenRod;
+}
+#choice{
+  background-color: bisque;
+  position: absolute;
+  top: 300px;
+  left: 250px;
+  font-size: 25px;
+  display: none;
+  padding: 10px;
+  border: solid 3px GoldenRod;
+}
+#choice, a{
+  text-decoration: none;
+  color: black;
+}
+/*forest*/
+#dungeonentrance{
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 370px;
+  left: 1297px;
+}
+#bigmushroom{
+  position: absolute;
+  top: 330px;
+  left: 900px;
+}
+#bigmushroomdialouge{
+  background-color: bisque;
+  position: absolute;
+  top: 700px;
+  left: 880px;
+  font-size: 15px;
+  display: none;
+  padding: 10px;
+  border: solid 3px GoldenRod;
+}
+#evil1{
+  position: absolute;
+  top: 320px;
+  left: 100px;
+}
+#evil2{
+  position: absolute;
+  top: 510px;
+  left: 800px;
+}
+#evilmushroomdialouge{
+  background-color: bisque;
+  position: absolute;
+  top: 700px;
+  left: 800px;
+  font-size: 15px;
+  display: none;
+  padding: 10px;
+  border: solid 3px GoldenRod;
+}
+/*rinas house*/
+#rinaperson{
+  position: absolute;
+  top: 300px;
+  left: 400px;
+}
+#rinadialouge{
+  background-color: bisque;
+  position: absolute;
+  top: 600px;
+  left: 450px;
+  font-size: 15px;
+  display: none;
+  padding: 10px;
+  border: solid 3px GoldenRod;
+}
+#fishtank{
+  position: absolute;
+  top: 206px;
+  left: 728px;
+  width: 231px;
+  height: 141px;
+}
+#fishtankdialouge{
+  background-color: bisque;
+  position: absolute;
+  top: 347px;
+  left: 700px;
+  font-size: 15px;
+  display: none;
+  padding: 10px;
+  border: solid 3px GoldenRod;
+}
+/*market*/
+#marketperson{
+  position: absolute;
+  top: 300px;
+  left: 600px;
+}
+#apothecarybutton{
+  position: absolute;
+  top: 8px;
+  left: 800px;
+}
+#marketdialouge{
+  background-color: bisque;
+  position: absolute;
+  top: 600px;
+  left: 550px;
+  font-size: 15px;
+  display: none;
+  padding: 10px;
+  border: solid 3px GoldenRod;
+}
+/*apothecary*/
+#apothecaryperson{
+  position: absolute;
+  top: 300px;
+  left: 590px;
+}
+#apothecarydialouge{
+  background-color: bisque;
+  position: absolute;
+  top: 600px;
+  left: 550px;
+  font-size: 15px;
+  display: none;
+  padding: 10px;
+  border: solid 3px GoldenRod;
+}
+/*your house*/
+#mug{
+  width: 62px;
+  height: 91px;
+  position: absolute;
+  top: 538px;
+  left: 1254px;
+}
+#mugdialouge{
+  background-color: bisque;
+  position: absolute;
+  top: 580px;
+  left: 830px;
+  font-size: 15px;
+  display: none;
+  padding: 10px;
+  border: solid 3px GoldenRod;
+}
+/*park*/
+#lamppost{
+  position: absolute;
+  top: 92px;
+  left: 886px;
+  width: 100px;
+  height: 549px;
+}
+#lamppostdialouge{
+  background-color: bisque;
+  position: absolute;
+  top: 641px;
+  left: 830px;
+  font-size: 15px;
+  display: none;
+  padding: 10px;
+  border: solid 3px GoldenRod;
+}
