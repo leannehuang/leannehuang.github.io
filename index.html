@@ -5,15 +5,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
   <title>leannehuang</title>
+  <script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function() {
+    var lab=document.getElementById("lab");
+    var labcontain=document.getElementById("labcontain")
+      lab.onclick= function(){
+        if (labcontain.style.opacity==="0"){
+        document.getElementById("labcontain").style.opacity = "100";
+        document.getElementById("lab").style.width = "500px";
+        }
+        else{
+          document.getElementById("labcontain").style.opacity = "0";
+          document.getElementById("lab").style.width = "100px";
+        }
+    }
+    var studio=document.getElementById("studio");
+    var studiocontain=document.getElementById("studiocontain")
+      studio.onclick= function(){
+        if (studiocontain.style.opacity==="0"){
+        document.getElementById("studiocontain").style.opacity = "100";
+        document.getElementById("studio").style.width = "300px";
+        }
+        else{
+          document.getElementById("studiocontain").style.opacity = "0";
+          document.getElementById("studio").style.width = "100px";
+        }
+    }
+});
+  </script>
 </head>
 <body>
   <h1>hello!</h1>
-  <a href="https://leannehuang.github.io/week-1/">week 1</a>
-  <a href="https://leannehuang.github.io/week-2/">week 2</a>
-  <a href="https://leannehuang.github.io/week-3/">week 3</a>
-  <a href="https://leannehuang.github.io/week-4/">week 4</a>
-  <a href="https://leannehuang.github.io/week-5/">week 5</a>
-  <a href="https://leannehuang.github.io/town/index.html#yourhouse">town</a>
+  <div id="lab">lab</div>
+  <div id="labcontain">
+    <a href="https://leannehuang.github.io/week-1/">week 1 / </a>
+    <a href="https://leannehuang.github.io/week-2/">week 2 / </a>
+    <a href="https://leannehuang.github.io/week-3/">week 3 / </a>
+    <a href="https://leannehuang.github.io/week-4/">week 4 / </a>
+    <a href="https://leannehuang.github.io/week-5/">week 5</a>
+  </div>
+  <div id="studio">studio</div>
+  <div id="studiocontain">
+    <a href="https://leannehuang.github.io/town/index.html#yourhouse">mushroom town</a>
+  </div>
 </body>
 </html>
