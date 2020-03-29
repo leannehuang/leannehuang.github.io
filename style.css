@@ -5,14 +5,14 @@ body{
 h1{
   color: white;
   font-size: 5em;
-  left: 290px;
+  left: 20vw;
   position: absolute;
 }
 #lab{
   color: white;
   border: 2px solid white;
   font-size: 2em;
-  left: 290px;
+  left: 20vw;
   top: 200px;
   position: absolute;
   width: 100px;
@@ -24,7 +24,7 @@ h1{
   color: white;
   border: 2px solid white;
   font-size: 2em;
-  left: 290px;
+  left: 20vw;
   top: 270px;
   position: absolute;
   width: 100px;
@@ -34,17 +34,17 @@ h1{
 }
 #labcontain{
   font-size: 1.2em;
-  left: 430px;
-  top: 220px;
-  position: absolute;
+  left: 30vw;
+  top: 210px;
+  position: relative;
   opacity: 0;
   transition: 0.9s;
 }
 #studiocontain{
   font-size: 1.2em;
-  left: 430px;
-  top: 290px;
-  position: absolute;
+  left: 30vw;
+  top: 260px;
+  position: relative;
   opacity: 0;
   transition: 0.9s;
 }
