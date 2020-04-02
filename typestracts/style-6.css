@@ -1,0 +1,443 @@
+*{
+  scroll-behavior: smooth;
+}
+body{
+  width: 2600vw;
+}
+.flexcontain{
+  display:flex;
+  flex-direction: row;
+}
+/*.flex-container > div {
+  background-color: transparent;
+  margin: 10px;
+  padding: 20px;
+}*/
+.main{
+  font-size: 100px;
+  line-height: 5px;
+  text-align: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  position: absolute;
+  transition: background 1s;
+}
+.section:hover .death{
+  color: #fff;
+  z-index: 1;
+}
+.section:hover .main{
+  background-color:black;
+  background-image:
+  radial-gradient(yellow, rgba(255,255,255,.2) 2px, transparent 10px),
+  radial-gradient(yellow, rgba(255,255,255,.15) 1px, transparent 5px),
+  radial-gradient(yellow, rgba(255,255,255,.1) 2px, transparent 10px),
+  radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 5px);
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+  z-index: 1;
+}
+.section:hover .stars{
+  color: yellow;
+  z-index: 1;
+}
+.main1{
+  font-size: 100px;
+  line-height: 5px;
+  left: 100px;
+  top: 30px;
+  text-align: center;
+  position: absolute;
+}
+.main2{
+  font-size: 100px;
+  line-height: 5px;
+  right: 100px;
+  top: -20px;
+  text-align: center;
+  position: absolute;
+}
+.sect2{
+  display: inline-block;
+  position: relative;
+  left: 1500px;
+  line-height: 0px;
+  top: -950px;
+}
+.large{
+  font-size: 200vh;
+  letter-spacing: 1px;
+  line-height: 0px;
+}
+a{
+  text-decoration: none;
+  display: inline;
+  color: black;
+}
+a:visited{
+  color: black;
+}
+.sect3{
+  display: inline-block;
+  position: relative;
+  left: 1500px;
+  font-family: sans-serif;
+}
+.room{
+  font-size: 5em;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  top: 300px;
+  left: 550px;
+  position: relative;
+}
+.center{
+  position: absolute;
+  top: 400px;
+  left: 600px;
+  text-align: center;
+  letter-spacing: 7px;
+  margin: auto;
+}
+.pass{
+  transform: rotate(20deg);
+  margin: 0px;
+  padding: 0;
+  width: 300px;
+  left: 50px;
+  position: absolute;
+  animation-name: slide;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes slide{
+  from {transform: rotate(15deg) translate(50px,10px)}
+  to {transform: rotate(15deg) translate(1400px, 300px)};
+}
+.sect4{
+  display: inline-block;
+  position: relative;
+  left: 2300px;
+  font-family: sans-serif;
+}
+.lines{
+  font-size: 3em;
+  animation-name: rotate;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  display: inline-block;
+  position: relative;
+  width: 800px;
+  top: 200px;
+  left: 400px;
+}
+.lines1{
+  font-size: 3em;
+  animation-name: rotatei;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  display: inline-block;
+  position: relative;
+  width: 300px;
+  text-align: center;
+  top: 300px;
+  left: 300px;
+}
+.lines2{
+  font-size: 3em;
+  animation-name: rotateii;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  display: inline-block;
+  position: relative;
+  width: 500px;
+  text-align: right;
+  top: 200px;
+  left: 300px;
+}
+.circle{
+  background-color: lightgreen;
+  height: 700px; 
+  width: 700px;
+  border-radius: 400px;
+  display: inline-block;
+  right: 800px;
+  top: 80px;
+  position: absolute;
+  z-index: -1;
+}
+.circle1{
+  background-color: lightgreen;
+  height: 500px; 
+  width: 500px;
+  border-radius: 300px;
+  right: 100px;
+  display: inline-block;
+  position: absolute;
+  z-index: -1;
+  top: 100px;
+}
+.circle2{
+  background-color: lightgreen;
+  height: 600px; 
+  width: 600px;
+  border-radius: 300px;
+  display: inline-block;
+  position: absolute;
+  z-index: -1;
+}
+.gradient{
+  height: 400px;
+  width: 400px;
+  border-radius: 400px;
+  display: inline-block;
+  right: 900px;
+  top: 100px;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 0px 200px 200px white;
+  animation-name: rotategrad;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  z-index: -1;
+}
+.gradient1{
+  height: 500px;
+  width: 500px;
+  border-radius: 300px;
+  display: inline-block;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 0px 200px 200px white;
+  animation-name: rotategrad;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  z-index: -1;
+}
+
+
+@keyframes rotate{
+from {
+    transform: rotate(0deg)
+               translate(-400px)
+               rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg)
+               translate(-400px) 
+               rotate(-360deg);
+  }
+}
+@keyframes rotatei{
+from {
+    transform: rotate(0deg)
+               translate(-200px)
+               rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg)
+               translate(-200px) 
+               rotate(-360deg);
+  }
+}
+@keyframes rotateii{
+from {
+    transform: rotate(0deg)
+               translate(300px)
+               rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg)
+               translate(300px) 
+               rotate(-360deg);
+  }
+}
+@keyframes rotategrad{
+from {
+    transform: rotate(0deg)
+               translate(500px)
+               rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg)
+               translate(500px) 
+               rotate(-360deg);
+  }
+}
+.sect5{
+  display: inline-block;
+  position: relative;
+  left: 3000px;
+  top: -250px;
+}
+.nd{
+ font-size: 70em;
+ margin: 0px;
+ padding: 0px;
+ transition: 0.75s; 
+}
+.e{
+  font-size: 70em;
+  position: absolute;
+  top: 330px;
+  transition: 0.75s; 
+}
+.next{
+  display: inline;
+  position: absolute;
+  top: 300px;
+  left: 1080px;
+  text-align: right;
+  font-size: 2em;
+}
+.bottom{
+  top: 1080px;
+  position: absolute;
+  right: 100px;
+  font-size: 2em;
+}
+.flip{
+  -webkit-transform:rotateY(180deg);
+  -moz-transform:rotateY(180deg);
+  -o-transform:rotateY(180deg);
+  -ms-transform:rotateY(180deg);
+}
+.e:hover{
+  -webkit-transform:rotateY(180deg);
+  -moz-transform:rotateY(180deg);
+  -o-transform:rotateY(180deg);
+  -ms-transform:rotateY(180deg);
+}
+.nd:hover{
+  -webkit-transform:rotateY(180deg);
+  -moz-transform:rotateY(180deg);
+  -o-transform:rotateY(180deg);
+  -ms-transform:rotateY(180deg);
+}
+.sect6{
+  display: inline-block;
+  position: relative;
+  left: 3200px;
+  font-family: sans-serif;
+  top: 300px;
+}
+.vertical{
+  font-size: 5em;
+  transform: rotate(90deg);
+  width: 1000px;
+  top: 500px;
+  transform-origin: top;
+  position: absolute;
+  display: inline-block;
+}
+.end{
+  top: 600px;
+  text-align: right;
+  float: right;
+  position: relative;
+}
+.line1{
+  background-color: black;
+  width: 3000px;
+  height: 8px;
+  position: absolute;
+  top: 491px;
+  left: 424px;
+  animation-name: grow;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+.line2{
+  background-color: black;
+  width: 3000px;
+  height: 8px;
+  position: absolute;
+  top: 507px;
+  left: 424px;
+  animation-name: grow;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+.line3{
+  background-color: black;
+  width: 3000px;
+  height: 8px;
+  position: absolute;
+  top: 418px;
+  left: 424px;
+  animation-name: grow;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  transform-origin: 100px
+}
+.line4{
+  background-color: black;
+  width: 3000px;
+  height: 8px;
+  position: absolute;
+  top: 446px;
+  left: 424px;
+  animation-name: grow;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+.line5{
+  background-color: black;
+  width: 3000px;
+  height: 8px;
+  position: absolute;
+  top: 491px;
+right: -420px;
+  transform: scaleX(-1);
+  animation-name: growii;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+.line6{
+  background-color: black;
+  width: 3000px;
+  height: 8px;
+  position: absolute;
+  top: 507px;
+  right: -420px;
+  transform: scaleX(-1);
+  animation-name: growii;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+.line7{
+  background-color: black;
+  width: 3000px;
+  height: 8px;
+  position: absolute;
+  top: 418px;
+  right: -420px;
+  transform: scaleX(-1);
+  animation-name: growii;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+.line8{
+  background-color: black;
+  width: 3000px;
+  height: 8px;
+  position: absolute;
+  top: 446px;
+  right: -420px;
+  transform: scaleX(-1);
+  animation-name: growii;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes grow{
+  from {width: 3000px;}
+  to {width: 100px;}
+}
+@keyframes growii{
+  from {width: 1800px;}
+  to {width: 100px;}
+}

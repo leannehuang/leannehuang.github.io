@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>leannehuang</title>
+  <script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("circle").style.display = "block";
+    document.getElementById("pizza").style.fontWeight = "bold";
+    document.getElementById("hello").style.color = "pink";
+
+    var c = document.getElementById("circle");
+    var ctx = c.getContext("2d");
+    ctx.beginPath();
+    ctx.arc(100, 75, 50, 0, 2 * Math.PI);
+    ctx.fillStyle = "red";
+    ctx.fill();
+
+    var button=document.getElementById("button");
+    var circle=document.getElementById("circle")
+      button.onclick= function(){
+        if (circle.style.display==="none"){
+        document.getElementById("circle").style.display = "block";
+        }
+        else{
+          document.getElementById("circle").style.display = "none";
+        }
+    }
+
+    var hello=document.getElementById("hello");
+      hello.onclick= function(){
+        if (hello.style.color==="pink"){
+        document.getElementById("hello").style.color = "lightblue";
+        }
+        else{
+          document.getElementById("hello").style.color = "pink";
+        }
+    }
+
+    document.getElementById("p1").onmouseover = function() {mouseOver1()};
+    document.getElementById("p1").onmouseout = function() {mouseOut1()};
+
+    function mouseOver1() {
+      document.getElementById("p1").style.fontSize = "xx-large";
+    }
+    function mouseOut1() {
+      document.getElementById("p1").style.fontSize = "medium";
+    }
+
+    document.getElementById("p2").onmouseover = function() {mouseOver2()};
+    document.getElementById("p2").onmouseout = function() {mouseOut2()};
+    
+    function mouseOver2() {
+      document.getElementById("p2").style.fontSize = "xx-large";
+    }
+    function mouseOut2() {
+      document.getElementById("p2").style.fontSize = "medium";
+    }
+    document.getElementById("p3").onmouseover = function() {mouseOver3()};
+    document.getElementById("p3").onmouseout = function() {mouseOut3()};
+
+    function mouseOver3() {
+      document.getElementById("p3").style.fontSize = "xx-large";
+    }
+    function mouseOut3() {
+      document.getElementById("p3").style.fontSize = "medium";
+    }
+  });
+  </script>
+</head>
+<body>
+  <h1 id="hello">hello</h1>
+  <ul>
+    <li>egg tarts</li>
+    <li>chocolate cake</li>
+    <li>pocky</li>
+    <li>burger</li>
+    <li>soup dumplings</li>
+    <li id="pizza">margherita pizza</li>
+  </ul> 
+  <button id="button">circle</button>
+  <canvas id="circle" width="300" height="150">
+  </canvas>
+  <p id="p1">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet facilisis magna etiam tempor. Iaculis eu non diam phasellus vestibulum. Sit amet nisl purus in mollis nunc sed. Cursus turpis massa tincidunt dui. Auctor urna nunc id cursus metus aliquam eleifend. Consequat ac felis donec et odio pellentesque diam. Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Scelerisque in dictum non consectetur a erat nam at. Dignissim diam quis enim lobortis scelerisque fermentum dui. Eget arcu dictum varius duis at consectetur. Suscipit tellus mauris a diam maecenas sed enim ut sem. Dui nunc mattis enim ut tellus. Fermentum posuere urna nec tincidunt praesent semper feugiat.
+  </p>
+  <p id="p2">
+    Nulla pellentesque dignissim enim sit amet venenatis urna. Ante in nibh mauris cursus mattis molestie a iaculis. Mi tempus imperdiet nulla malesuada. Nibh mauris cursus mattis molestie a iaculis at erat pellentesque. Elit pellentesque habitant morbi tristique senectus et netus et. Volutpat consequat mauris nunc congue. Habitant morbi tristique senectus et netus et. Duis ut diam quam nulla porttitor massa id neque aliquam. Sed velit dignissim sodales ut eu sem integer vitae. Massa sed elementum tempus egestas sed sed. Ipsum faucibus vitae aliquet nec ullamcorper. Rhoncus urna neque viverra justo nec ultrices dui sapien eget.
+  </p>
+  <p id="p3">
+    Pulvinar proin gravida hendrerit lectus a. Enim neque volutpat ac tincidunt vitae. Quis risus sed vulputate odio ut enim blandit volutpat. Malesuada proin libero nunc consequat interdum varius sit amet mattis. Egestas maecenas pharetra convallis posuere morbi leo. Tempor commodo ullamcorper a lacus vestibulum. Massa massa ultricies mi quis hendrerit dolor magna. Pretium lectus quam id leo in vitae turpis. Ut sem viverra aliquet eget sit amet. Habitasse platea dictumst vestibulum rhoncus est. Eu mi bibendum neque egestas congue quisque. Vitae sapien pellentesque habitant morbi tristique senectus et netus. Maecenas pharetra convallis posuere morbi leo urna molestie. Elit duis tristique sollicitudin nibh sit amet commodo. Luctus accumsan tortor posuere ac ut consequat semper viverra.
+  </p>
