@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+
+body {
+  font-family: 'Source Code Pro', monospace;
+  padding: 10px;
+  line-height: 1.6;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+#marquee{
+  display: none;
+  z-index: 1;
+}
+#video{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+span {
+  opacity: 0;
+  animation-name: typewriter;
+  animation-fill-mode: forwards;
+  animation-duration: 0s;
+  animation-play-state: paused;
+  animation-delay: calc(var(--animation-order) * 100ms);
+}
+
+@keyframes typewriter {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+.marquee {
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+  height: 200px;
+  overflow-x: hidden;
+}
+
+.track {
+  position: absolute;
+  white-space: nowrap;
+  will-change: transform;
+  animation-play-state: paused;
+  animation: marquee 100s linear infinite;
+  width: 100vw;
+  background-color: green;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(1400px); }
+  100% { transform: translateX(-17664px); }
+}

@@ -1,0 +1,338 @@
+body{
+  font-family: monospace;
+  font-size: 15px
+}
+img{
+  max-width: 390px;
+  max-height: 200px;
+}
+#jfktoberlin, #berlintojfk{
+  position: relative;
+  top: 10px;
+  left: 5px;
+}
+.ticket1{
+  position: absolute;
+  display: inline-block;
+  top: 200px;
+  left: 100px;
+  width: 400px;
+  height: 200px;
+  border: 1px solid black;
+  text-align: center;
+}
+.ticket2{
+  position: absolute;
+  display: inline-block;
+  top: 200px;
+  left: 530px;
+  width: 400px;
+  height: 200px;
+  border: 1px solid black;
+  text-align: center;
+}
+.ticket3{
+  position: absolute;
+  display: inline-block;
+  top: 200px;
+  left: 960px;
+  width: 400px;
+  height: 200px;
+  border: 1px solid black;
+  text-align: center;
+}
+.spacer{
+  position: absolute;
+  display: inline-block;
+  top: 200px;
+  left: 1362px;
+  height: 1px; 
+  padding-right: 100px;
+}
+.ticket4{
+  position: absolute;
+  display: inline-block;
+  top: 600px;
+  left: 100px;
+  width: 400px;
+  height: 200px;
+  border: 1px solid black;
+  text-align: center;
+}
+.ticket5{
+  position: absolute;
+  display: inline-block;
+  top: 600px;
+  left: 530px;
+  width: 400px;
+  height: 200px;
+  border: 1px solid black;
+  text-align: center;
+}
+.ticket6{
+  position: absolute;
+  display: inline-block;
+  top: 600px;
+  left: 960px;
+  width: 400px;
+  height: 200px;
+  border: 1px solid black;
+  text-align: center;
+}
+.ticket7{
+  position: absolute;
+  display: inline-block;
+  top: 1000px;
+  left: 100px;
+  width: 400px;
+  height: 200px;
+  border: 1px solid black;
+  text-align: center;
+}
+.ticket8{
+  position: absolute;
+  display: inline-block;
+  top: 1000px;
+  left: 530px;
+  width: 400px;
+  height: 200px;
+  border: 1px solid black;
+}
+.ticket9{
+  position: absolute;
+  display: inline-block;
+  top: 1000px;
+  left: 960px;
+  width: 400px;
+  height: 200px;
+  border: 1px solid black;
+  text-align: center;
+}
+.ticket10{
+  position: absolute;
+  display: inline-block;
+  top: 1400px;
+  left: 100px;
+  width: 400px;
+  height: 200px;
+  border: 1px solid black;
+  text-align: center;
+}
+.ticket11{
+  position: absolute;
+  display: inline-block;
+  top: 1400px;
+  left: 530px;
+  width: 400px;
+  height: 200px;
+  border: 1px solid black;
+}
+.ticket12{
+  position: absolute;
+  display: inline-block;
+  top: 1400px;
+  left: 960px;
+  width: 400px;
+  height: 200px;
+  border: 1px solid black;
+  text-align: center;
+}
+.ticket13{
+  position: absolute;
+  display: inline-block;
+  top: 1800px;
+  left: 100px;
+  width: 400px;
+  height: 200px;
+  border: 1px solid black;
+  text-align: center;
+}
+.ticket14{
+  position: absolute;
+  display: inline-block;
+  top: 1800px;
+  left: 530px;
+  width: 400px;
+  height: 200px;
+  border: 1px solid black;
+}
+.ticket15{
+  position: absolute;
+  display: inline-block;
+  top: 1800px;
+  left: 960px;
+  width: 400px;
+  height: 200px;
+  border: 1px solid black;
+  text-align: center;
+}
+.ticket16{
+  position: absolute;
+  display: inline-block;
+  top: 2200px;
+  left: 100px;
+  width: 400px;
+  height: 200px;
+  border: 1px solid black;
+  text-align: center;
+}
+.description1{
+  position: absolute;
+  display: inline-block;
+  top: 450px;
+  left: 100px;
+  width: 400px;
+  height: 200px;
+}
+.description2{
+  position: absolute;
+  display: inline-block;
+  top: 450px;
+  left: 530px;
+  width: 400px;
+  height: 200px;
+}
+.description3{
+  position: absolute;
+  display: inline-block;
+  top: 450px;
+  left: 960px;
+  width: 400px;
+  height: 200px;
+}
+.description4{
+  position: absolute;
+  display: inline-block;
+  top: 850px;
+  left: 100px;
+  width: 400px;
+  height: 200px;
+}
+.description5{
+  position: absolute;
+  display: inline-block;
+  top: 850px;
+  left: 530px;
+  width: 400px;
+  height: 200px;
+}
+.description6{
+  position: absolute;
+  display: inline-block;
+  top: 850px;
+  left: 960px;
+  width: 400px;
+  height: 200px;
+}
+.description7{
+  position: absolute;
+  display: inline-block;
+  top: 1250px;
+  left: 100px;
+  width: 400px;
+  height: 200px;
+}
+.description8{
+  position: absolute;
+  display: inline-block;
+  top: 1250px;
+  left: 530px;
+  width: 400px;
+  height: 200px;
+}
+.description9{
+  position: absolute;
+  display: inline-block;
+  top: 1250px;
+  left: 960px;
+  width: 400px;
+  height: 200px;
+}
+.description10{
+  position: absolute;
+  display: inline-block;
+  top: 1650px;
+  left: 100px;
+  width: 400px;
+  height: 200px;
+}
+.description11{
+  position: absolute;
+  display: inline-block;
+  top: 1650px;
+  left: 530px;
+  width: 400px;
+  height: 200px;
+}
+.description12{
+  position: absolute;
+  display: inline-block;
+  top: 1650px;
+  left: 960px;
+  width: 400px;
+  height: 200px;
+}
+.description13{
+  position: absolute;
+  display: inline-block;
+  top: 2050px;
+  left: 100px;
+  width: 400px;
+  height: 200px;
+}
+.description14{
+  position: absolute;
+  display: inline-block;
+  top: 2050px;
+  left: 530px;
+  width: 400px;
+  height: 200px;
+}
+.description15{
+  position: absolute;
+  display: inline-block;
+  top: 2050px;
+  left: 960px;
+  width: 400px;
+  height: 200px;
+}
+.description16{
+  position: absolute;
+  display: inline-block;
+  top: 2450px;
+  left: 100px;
+  width: 400px;
+  height: 200px;
+}
+#sortbutton{
+  position: absolute;
+  display: inline-block;
+  top: 150px;
+  left: 100px;
+  font-family: monospace;
+  font-size: 15px;
+  background: transparent;
+}
+#viewbutton{
+  position: absolute;
+  display: inline-block;
+  top: 150px;
+  left: 180px;
+  font-family: monospace;
+  font-size: 15px;
+  background: transparent;
+  cursor: pointer;
+}
+#sortmenu{
+  display: none;
+  position: absolute;
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  top: 175px;
+  left: 100px;
+  z-index: 1;
+}
+#item1, #item2, #item3, #item4{
+  cursor: pointer;
+}

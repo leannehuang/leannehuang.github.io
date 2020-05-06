@@ -1,0 +1,731 @@
+body{
+  background-color: AntiqueWhite;
+  font-family: monospace;
+  font-size: 20px
+}
+#viewbutton{
+  position: absolute;
+  display: inline-block;
+  top: 940px;
+  left: 85px;
+  font-family: monospace;
+  color: tan;
+  font-size: 25px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.transportation, .places, .events{
+  position: absolute;
+  display: inline-block;
+}
+#palermo1, #capri1, #capri2, #whitneyticket{
+  width: 300px;
+}
+#palermo2, #shorelineticket, #momaticket{
+  width: 500px;
+}
+#capri3{
+  width: 400px;
+}
+#rometoberlin, #charlieticket, #metticket{
+  width: 250px;
+}
+#commencement1, #commencement2, #mcaticket{
+  width: 600px;
+}
+#jfktoberlin, #berlintojfk{
+  width: 900px;
+}
+.ticket1, .ticket2, .ticket3, .ticket4, .ticket5, .ticket6, .ticket7, .ticket8, .ticket8, .ticket9, .ticket10, .ticket11, .ticket12, .ticket13, .ticket14, .ticket15, .ticket16{
+  left: 0px;
+}
+.flipcontain1 {
+  position: absolute;
+  background-color: transparent;
+  width: 900px;
+  height: 400px;
+  perspective: 1300px;
+  top: 1000px;
+  left: 200px;
+}
+
+.flip1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.3s;
+  transform-style: preserve-3d;
+}
+
+.flipcontain1:hover .flip1 {
+  transform: rotateY(180deg);
+}
+
+.front1, .back1 {
+  position: absolute;
+  width: 900px;
+  height: 400px;
+  backface-visibility: hidden;
+}
+
+.back1{
+  background-color: tan;
+  color: white;
+  transform: rotateY(180deg);
+  text-align: center;
+}
+.description1{
+  position: relative;
+  top: 120px;
+}
+.flipcontain2 {
+  position: absolute;
+  background-color: transparent;
+  width: 300px;
+  height: 175.95px;
+  perspective: 1300px;
+  top: 850px;
+  left: 880px;
+}
+
+.flip2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.3s;
+  transform-style: preserve-3d;
+}
+
+.flipcontain2:hover .flip2 {
+  transform: rotateY(180deg);
+}
+
+.front2, .back2 {
+  position: absolute;
+  width: 300px;
+  height: 175.95px;
+  backface-visibility: hidden;
+}
+
+.back2{
+  background-color: tan;
+  color: white;
+  transform: rotateY(-180deg);
+  text-align: center;
+  left: 0;
+}
+.description2{
+  position: relative;
+  top: 25px;
+}
+.flipcontain3 {
+  position: absolute;
+  background-color: transparent;
+  width: 500px;
+  height: 304.55px;
+  perspective: 1300px;
+  left: 880px;
+  top: 550px;
+}
+.flip3 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.3s;
+  transform-style: preserve-3d;
+}
+
+.flipcontain3:hover .flip3 {
+  transform: rotateY(180deg);
+}
+
+.front3, .back3 {
+  position: absolute;
+  width: 500px;
+  height: 304.55px;
+  backface-visibility: hidden;
+}
+
+.back3{
+  background-color: tan;
+  color: white;
+  transform: rotateY(-180deg);
+  text-align: center;
+  left: 0;
+}
+.description3{
+  position: relative;
+  top: 100px;
+  padding: 10px
+}
+.flipcontain4 {
+  position: absolute;
+  background-color: transparent;
+  width: 300px;
+  height: 189.06px;
+  perspective: 1300px;
+  left: 1380px;
+  top: 300px;
+}
+.flip4 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.3s;
+  transform-style: preserve-3d;
+}
+
+.flipcontain4:hover .flip4 {
+  transform: rotateY(180deg);
+}
+
+.front4, .back4 {
+  position: absolute;
+  width: 300px;
+  height: 189.06px;
+  backface-visibility: hidden;
+}
+
+.back4{
+  background-color: tan;
+  color: white;
+  transform: rotateY(-180deg);
+  text-align: center;
+  left: 0;
+}
+.description4{
+  position: relative;
+  top: 40px;
+  padding: 10px
+}
+.flipcontain5 {
+  position: absolute;
+  background-color: transparent;
+  width: 300px;
+  height: 189.06px;
+  perspective: 1300px;
+  left: 1380px;
+  top: 460px;
+}
+.flip5 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.3s;
+  transform-style: preserve-3d;
+}
+
+.flipcontain5:hover .flip5 {
+  transform: rotateY(180deg);
+}
+
+.front5, .back5 {
+  position: absolute;
+  width: 300px;
+  height: 189.06px;
+  backface-visibility: hidden;
+}
+.back5{
+  background-color: tan;
+  color: white;
+  transform: rotateY(-180deg);
+  text-align: center;
+  left: 0;
+}
+.description5{
+  position: relative;
+  top: 10px;
+  padding: 10px
+}
+.flipcontain6 {
+  position: absolute;
+  background-color: transparent;
+  width: 400px;
+  height: 333.08px;
+  perspective: 1300px;
+  left: 1380px;
+  top: 600px;
+}
+.flip6 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.3s;
+  transform-style: preserve-3d;
+}
+
+.flipcontain6:hover .flip6 {
+  transform: rotateY(180deg);
+}
+
+.front6, .back6 {
+  position: absolute;
+  width: 400px;
+  height: 333.08px;
+  backface-visibility: hidden;
+}
+
+.back6{
+  background-color: tan;
+  color: white;
+  transform: rotateY(-180deg);
+  text-align: center;
+  left: 0;
+}
+.description6{
+  position: relative;
+  top: 70px;
+  padding: 20px
+}
+.flipcontain7 {
+  position: absolute;
+  background-color: transparent;
+  width: 250px;
+  height: 369.58px;
+  perspective: 1300px;
+  left: 1650px;
+  top: 0px;
+}
+.flip7 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.3s;
+  transform-style: preserve-3d;
+}
+
+.flipcontain7:hover .flip7 {
+  transform: rotateY(180deg);
+}
+
+.front7, .back7 {
+  position: absolute;
+  width: 250px;
+  height: 369.58px;
+  backface-visibility: hidden;
+}
+
+.back7{
+  background-color: tan;
+  color: white;
+  transform: rotateY(-180deg);
+  text-align: center;
+  left: 0;
+}
+.description7{
+  position: relative;
+  top: 70px;
+  padding: 10px
+}
+.flipcontain8 {
+  position: absolute;
+  background-color: transparent;
+  width: 900px;
+  height: 390.38px;
+  perspective: 1300px;
+  left: 1650px;
+  top: 50px;
+  z-index: -1;
+}
+.flip8 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.3s;
+  transform-style: preserve-3d;
+}
+
+.flipcontain8:hover .flip8 {
+  transform: rotateY(180deg);
+}
+
+.front8, .back8 {
+  position: absolute;
+  width: 900px;
+  height: 390.38px;
+  backface-visibility: hidden;
+}
+
+.back8{
+  background-color: tan;
+  color: white;
+  transform: rotateY(-180deg);
+  text-align: right;
+  left: 0;
+}
+.description8{
+  position: relative;
+  top: 120px;
+  padding-left: 250px;
+  padding-right: 20px;
+}
+.flipcontain10 {
+  position: absolute;
+  background-color: transparent;
+  width: 600px;
+  height: 222.66px;
+  perspective: 1300px;
+  top: 1000px;
+  left: 1780px;
+}
+.flip10 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.3s;
+  transform-style: preserve-3d;
+}
+
+.flipcontain10:hover .flip10 {
+  transform: rotateY(180deg);
+}
+
+.front10, .back10 {
+  position: absolute;
+  width: 600px;
+  height: 222.66px;
+  backface-visibility: hidden;
+}
+
+.back10{
+  background-color: tan;
+  color: white;
+  transform: rotateY(-180deg);
+  text-align: center;
+  left: 0;
+}
+.description10{
+  position: relative;
+  top: 50px;
+}
+.flipcontain11 {
+  position: absolute;
+  background-color: transparent;
+  width: 600px;
+  height: 222.66px;
+  perspective: 1300px;
+  top: 1180px;
+  left: 1780px;
+}
+.flip11 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.3s;
+  transform-style: preserve-3d;
+}
+
+.flipcontain11:hover .flip11 {
+  transform: rotateY(180deg);
+}
+
+.front11, .back11 {
+  position: absolute;
+  width: 600px;
+  height: 222.66px;
+  backface-visibility: hidden;
+}
+.back11{
+  background-color: tan;
+  color: white;
+  transform: rotateY(-180deg);
+  text-align: center;
+  left: 0;
+}
+.description11{
+  position: relative;
+  top: 70px;
+}
+.flipcontain9 {
+  position: absolute;
+  background-color: transparent;
+  width: 300px;
+  height: 596px;
+  perspective: 1300px;
+  top: 600px;
+  left: 2400px;
+}
+.flip9 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.3s;
+  transform-style: preserve-3d;
+}
+
+.flipcontain9:hover .flip9 {
+  transform: rotateY(180deg);
+}
+
+.front9, .back9 {
+  position: absolute;
+  width: 300px;
+  height: 596px;
+  backface-visibility: hidden;
+}
+
+.back9{
+  background-color: tan;
+  color: white;
+  transform: rotateY(-180deg);
+  text-align: center;
+  left: 0;
+}
+.description9{
+  position: relative;
+  top: 200px;
+  padding: 10px;
+}
+.flipcontain12 {
+  position: absolute;
+  background-color: transparent;
+  width: 500px;
+  height: 295.11px;
+  perspective: 1300px;
+  top: 400px;
+  left: 2500px;
+}
+.flip12 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.3s;
+  transform-style: preserve-3d;
+}
+
+.flipcontain12:hover .flip12 {
+  transform: rotateY(180deg);
+}
+
+.front12, .back12 {
+  position: absolute;
+  width: 500px;
+  height: 295.11px;
+  backface-visibility: hidden;
+}
+
+.back12{
+  background-color: tan;
+  color: white;
+  transform: rotateY(-180deg);
+  text-align: center;
+  left: 0;
+}
+.description12{
+  position: relative;
+  top: 90px;
+  padding: 10px;
+}
+.flipcontain13 {
+  position: absolute;
+  background-color: transparent;
+  width: 500px;
+  height: 289.5px;
+  perspective: 1300px;
+  top: 1120px;
+  left: 3000px;
+}
+.flip13 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.3s;
+  transform-style: preserve-3d;
+}
+
+.flipcontain13:hover .flip13 {
+  transform: rotateY(180deg);
+}
+
+.front13, .back13 {
+  position: absolute;
+  width: 500px;
+  height: 289.5px;
+  backface-visibility: hidden;
+}
+
+.back13{
+  background-color: tan;
+  color: white;
+  transform: rotateY(-180deg);
+  text-align: center;
+  left: 0;
+}
+.description13{
+  position: relative;
+  top: 90px;
+  padding: 10px;
+}
+.flipcontain14 {
+  position: absolute;
+  background-color: transparent;
+  width: 600px;
+  height: 230.52px;
+  perspective: 1300px;
+  top: 900px;
+  left: 3000px;
+}
+.flip14 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.3s;
+  transform-style: preserve-3d;
+}
+.flipcontain14:hover .flip14 {
+  transform: rotateY(180deg);
+}
+.front14, .back14 {
+  position: absolute;
+  width: 600px;
+  height: 230.52px;
+  backface-visibility: hidden;
+}
+.back14{
+  background-color: tan;
+  color: white;
+  transform: rotateY(-180deg);
+  text-align: center;
+  left: 0;
+}
+.description14{
+  position: relative;
+  top: 50px;
+  padding: 10px;
+}
+.flipcontain15 {
+  position: absolute;
+  background-color: transparent;
+  width: 250px;
+  height: 376px;
+  perspective: 1300px;
+  top: 550px;
+  left: 3500px;
+}
+.flip15 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.3s;
+  transform-style: preserve-3d;
+}
+
+.flipcontain15:hover .flip15 {
+  transform: rotateY(180deg);
+}
+
+.front15, .back15 {
+  position: absolute;
+  width: 250px;
+  height: 376px;
+  backface-visibility: hidden;
+}
+
+.back15{
+  background-color: tan;
+  color: white;
+  transform: rotateY(-180deg);
+  text-align: center;
+  left: 0;
+}
+.description15{
+  position: relative;
+  top: 80px;
+  padding: 10px;
+}
+.flipcontain16 {
+  position: absolute;
+  background-color: transparent;
+  width: 250px;
+  height: 584.3px;
+  perspective: 1300px;
+  top: 830px;
+  left: 4000px;
+}
+.flip16 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.3s;
+  transform-style: preserve-3d;
+}
+
+.flipcontain16:hover .flip16 {
+  transform: rotateY(180deg);
+}
+
+.front16, .back16 {
+  position: absolute;
+  width: 250px;
+  height: 584.3px;
+  backface-visibility: hidden;
+}
+
+.back16{
+  background-color: tan;
+  color: white;
+  transform: rotateY(-180deg);
+  text-align: center;
+  left: 0;
+}
+.description16{
+  position: relative;
+  top: 200px;
+  padding: 10px;
+}
+.yr2017{
+  position: absolute;
+  font-family: sans-serif;
+  top: 1090px;
+  left: -60px;
+  color: antiquewhite;
+  transform: rotate(-90deg);
+  font-size: 190px;
+  -webkit-text-stroke: 3px white;
+}
+.yr2018{
+  position: absolute;
+  font-family: sans-serif;
+  top: 1090px;
+  left: 1520px;
+  color: antiquewhite;
+  transform: rotate(-90deg);
+  font-size: 190px;
+  -webkit-text-stroke: 3px white;
+}
+.yr2019{
+  position: absolute;
+  font-family: sans-serif;
+  top: 1090px;
+  left: 2750px;
+  color: antiquewhite;
+  transform: rotate(-90deg);
+  font-size: 190px;
+  -webkit-text-stroke: 3px white;
+}
+.yr2020{
+  position: absolute;
+  font-family: sans-serif;
+  top: 1090px;
+  left: 3750px;
+  color: antiquewhite;
+  transform: rotate(-90deg);
+  font-size: 190px;
+  -webkit-text-stroke: 3px white;
+}
