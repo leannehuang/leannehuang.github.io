@@ -1,12 +1,19 @@
 body{
   background-color: MidnightBlue;
   font-family: 'Lato', sans-serif;
+  width: 100vw;
+  height: 100vh;
 }
 h1{
   color: white;
   font-size: 5em;
   left: 20vw;
   position: absolute;
+  cursor: pointer;
+}
+h1:hover{
+  border-bottom: 1px solid white;
+  transition: 0.5s;
 }
 #lab{
   color: white;
@@ -39,6 +46,7 @@ h1{
   position: relative;
   opacity: 0;
   transition: 0.9s;
+  width: 600px;
 }
 #studiocontain{
   font-size: 1.2em;
@@ -47,8 +55,17 @@ h1{
   position: relative;
   opacity: 0;
   transition: 0.9s;
+  width: 600px;
 }
 a{
   text-decoration: none;
   color: white;
+}
+#about{
+  position: absolute;
+  top: 10vh;
+  left: 40vw;
+  color: white;
+  opacity: 0;
+  transition: 0.5s;
 }

@@ -10,7 +10,7 @@
   <script type="text/javascript">
     document.addEventListener("DOMContentLoaded", function() {
     var lab=document.getElementById("lab");
-    var labcontain=document.getElementById("labcontain")
+    var labcontain=document.getElementById("labcontain");
       lab.onclick= function(){
         if (labcontain.style.opacity=="0"){
         document.getElementById("labcontain").style.opacity = "100";
@@ -22,7 +22,7 @@
         }
     }
     var studio=document.getElementById("studio");
-    var studiocontain=document.getElementById("studiocontain")
+    var studiocontain=document.getElementById("studiocontain");
       studio.onclick= function(){
         if (studiocontain.style.opacity=="0"){
         document.getElementById("studiocontain").style.opacity = "100";
@@ -33,11 +33,25 @@
           document.getElementById("studio").style.width = "100px";
         }
     }
+    var title=document.getElementById("title");
+    var about=document.getElementById("about");
+      title.onclick= function(){
+        if (about.style.opacity=="0"){
+          about.style.opacity="100";
+        }
+        else
+          about.style.opacity="0";
+      }
 });
   </script>
 </head>
 <body>
-  <h1>hello!</h1>
+  <h1 id="title">hello!</h1>
+  <div id="about">
+    <p id="aboutdescription">my name is leanne and i am currently studying communications design at parsons. <br>
+    <br>
+    email: leannefthuang@gmail.com</p>
+  </div>
   <div id="lab">lab</div>
   <div id="labcontain">
     <a href="https://leannehuang.github.io/week-1/">week 1 / </a>
