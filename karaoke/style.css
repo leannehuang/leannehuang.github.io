@@ -53,7 +53,7 @@ span {
   animation-play-state: paused;
   animation: marquee 100s linear infinite;
   width: 100vw;
-  background-color: green;
+  background-color: transparent;
 }
 
 @keyframes marquee {
