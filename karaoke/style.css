@@ -60,3 +60,6 @@ span {
   0% { transform: translateX(1400px); }
   100% { transform: translateX(-17664px); }
 }
+#title{
+  text-align: center;
+}

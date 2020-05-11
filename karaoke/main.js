@@ -25,6 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
   var video=document.getElementById("video");
   video.onclick= function(){
      if (lyrics.style.display="none"){
+      document.getElementById("title").style.display="none";
       document.getElementById("marquee").style.display = "block";
       document.getElementById("marquee").style.animationPlayState="running";
       var allspans= document.getElementsByTagName("span")
